@@ -403,22 +403,13 @@ footer ul {
 
   /* Gallery */
   .gallery img {
+    height: 70vh;
     grid-row: auto;
     grid-column: auto;
   }
 
   .gallery {
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  }
-
-  /* Contact */
-  .contact img {
-    display: none;
-  }
-
-  .form-wrapper button {
-    width: 100%;
-    margin-bottom: 7rem;
   }
 
   /* Footer */
@@ -429,6 +420,23 @@ footer ul {
   footer h4 {
     text-align: center;
     padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 1044px) {
+  /* Contact */
+  .contact img {
+    flex: none;
+    display: none;
+  }
+
+  .form-wrapper {
+    flex: none;
+    margin: auto;
+  }
+  .form-wrapper button {
+    width: 100%;
+    margin-bottom: 7rem;
   }
 }
 
