@@ -338,7 +338,6 @@ footer ul {
 
 @media screen and (max-width: 842px) {
   /* Hero */
-
   .hero {
     width: 100%;
   }
@@ -382,6 +381,10 @@ footer ul {
 
   .nav-open {
     transform: translate(-100%);
+  }
+
+  .no-scroll {
+    overflow: hidden;
   }
 
   .toggle .line1 {
